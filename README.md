@@ -1,16 +1,16 @@
-### Hi there 👋
+import matplotlib.pyplot as plt
 
-<!--
-**codenest01/codenest01** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Sample data
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
 
-Here are some ideas to get you started:
+# Create a scatter plot
+plt.scatter(x, y)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# Add labels and title
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+plt.title('Scatter Plot')
+
+# Display the plot
+plt.show()
